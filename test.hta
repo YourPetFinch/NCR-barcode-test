@@ -1,0 +1,10 @@
+
+<html>
+<script language="VBScript" type="text/vbscript">
+    Sub Window_OnLoad
+        Dim objShell
+        Set objShell = CreateObject("WScript.Shell")
+        objShell.Run "cmd.exe /c echo Hello World > C:\test.txt", 0, True
+    End Sub
+</script>
+</html>
